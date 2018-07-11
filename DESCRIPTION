@@ -1,0 +1,12 @@
+Package: loadr
+Type: Package
+Title: Loads an RData file into a variable
+Version: 0.1.0
+Author: Jeffrey Annis
+Maintainer: Jeffrey Annis <jannis@mail.usf.edu>
+Description: Typically, RData files are loaded with load(). However, load() imports data into the 
+     global workspace. loadr allows objects in RData files to be loaded into a variable that we specify.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
