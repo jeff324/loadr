@@ -20,3 +20,8 @@ save(x_list, file= "pi_list.RData")
 rm(x_list)
 x_list = load_rdata('pi_list.RData')
 ```
+#### Installation
+
+``` r
+devtools::install_github('jeff324/loadr')
+```
